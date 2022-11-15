@@ -1,5 +1,10 @@
 # Change Log
 
+## v1.0.0-beta.3 (Nov 15, 2022 UTC)
+- Added resumeStreaming and pauseStreaming in LiveEvent
+- Updated WebRTC version to M106
+- Improved stability
+
 ## v1.0.0-beta.2 (Oct 6, 2022)
 - Added customItems and LiveEventUpdateParams in LiveEvent
 - Added title and coverURL in LiveEvent
