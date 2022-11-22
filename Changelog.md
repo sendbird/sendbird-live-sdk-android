@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.0.0-beta.4 (Nov 22, 2022 UTC)
+- Added onLiveEventInfoUpdated in LiveEventListener
+- Improved stability
+
 ## v1.0.0-beta.3 (Nov 15, 2022 UTC)
 - Added resumeStreaming and pauseStreaming in LiveEvent
 - Updated WebRTC version to M106
