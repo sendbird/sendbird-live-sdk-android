@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.0.0-beta.5 (Dec 22, 2022 UTC)
+- Add interfaces to support applying filters to camera feed using external video source.
+
 ## v1.0.0-beta.4 (Nov 22, 2022 UTC)
 - Added onLiveEventInfoUpdated in LiveEventListener
 - Improved stability
