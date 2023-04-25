@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.0.0-beta.9 (Apr 25, 2023 UTC)
+- Fix a bug that occurs when the network connection is lost.
+
 ## 1.0.0-beta.8 (Mar 24, 2023 UTC)
 - Added `LiveEvent.getAllReactionCounts`
 - Stability improvements.
