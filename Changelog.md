@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.0.0-beta.10 (Apr 25, 2023 UTC)
+- Removed the parameter of resumeStreaming().
+
 ## 1.0.0-beta.9 (Apr 25, 2023 UTC)
 - Fix a bug that occurs when the network connection is lost.
 
