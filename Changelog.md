@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.0.0-beta.11 (May 9, 2023 UTC)
+- Improve audio device management while watching or hosting a Live Event.
+
 ## 1.0.0-beta.10 (Apr 25, 2023 UTC)
 - Removed the parameter of resumeStreaming().
 
