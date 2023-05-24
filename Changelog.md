@@ -1,5 +1,13 @@
 # Change Log
 
+## v1.0.0-beta.12 (May 24, 2023)
+- Added interfaces to set video quality constraints. 
+    - Added `MediaOptions.videoQualityConstraints`
+    - Added `LiveEvent.updateVideoQualityConstraints()`
+- Added interfaces to get network statistics from ongoing live events. 
+    - Added `LiveEvent.setConnectionQualityListener`
+    - Added `ConnectionQualityDelegate.onConnectionQualityUpdate`
+
 ## 1.0.0-beta.11 (May 9, 2023 UTC)
 - Improve audio device management while watching or hosting a Live Event.
 
