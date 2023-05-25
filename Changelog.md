@@ -1,6 +1,9 @@
 # Change Log
 
-## v1.0.0-beta.12 (May 24, 2023)
+## 1.0.0-beta.13 (May 25, 2023 UTC)
+- Modified internal logic of the `LiveEvent.switchCamera()`
+
+## 1.0.0-beta.12 (May 24, 2023)
 - Added interfaces to set video quality constraints. 
     - Added `MediaOptions.videoQualityConstraints`
     - Added `LiveEvent.updateVideoQualityConstraints()`
