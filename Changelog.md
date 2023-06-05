@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.0.0-beta.14 (June 5, 2023 UTC)
+- Added bandwidth, resolution, availableBitrate to ConnectionMetrics for better information about the live event.
+
 ## 1.0.0-beta.13 (May 25, 2023 UTC)
 - Modified internal logic of the `LiveEvent.switchCamera()`
 
