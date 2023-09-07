@@ -1,6 +1,22 @@
 # Change Log
 
-## 1.0.0-beta.14 (June 5, 2023 UTC)
+## v1.1.0 (Sep 07, 2023)
+## Sendbird Live SDK is now out of beta.
+
+## Introducing Audio Only Live Events.
+You can stream live events with audio only, without having to turn the video on.
+- Added `hostType` to `LiveEvent`
+  - singleHost: live event in which one host can stream video and audio at a time.
+  - singleHostAudioOnly: live event in which one host can stream only audio at a time.
+  - When creating or retrieving a list of live events, you must specify the type of the live event by providing a `hostType` variable.
+- Added `hostType` to `LiveEventCreateParams`
+- Added `hostTypes` to `LiveEventListQueryParams`
+
+## Breaking Changes
+- `LiveEvent.onParticipantEnter` and `LiveEvent.onParticipantExit` have been removed due to the excessive number of events they triggered when numerous participants joined the live event.
+  - Instead, use `LiveEvent.onParticipantCountChanged` to track the change of participant counts in a live event. This event will not be called every time a new participant joins the live event. Instead, it will be called periodically depending on the total number of participants joining the live event.
+- Now, initializing the Live SDK will initialize Sendbird Chat SDK, using the default `InitParams` defined in the Chat SDK. If you wish to change the initialization parameters of the Chat SDK, you must call `SendbirdChat.init` again after the Live SDK initialization.
+- `ConnectionQualityListener.onConnectionQualityUpdate()` is replaced with `ConnectionQualityListener.onConnectionQualityUpdated()`.## 1.0.0-beta.14 (June 5, 2023 UTC)
 - Added bandwidth, resolution, availableBitrate to ConnectionMetrics for better information about the live event.
 
 ## 1.0.0-beta.13 (May 25, 2023 UTC)
