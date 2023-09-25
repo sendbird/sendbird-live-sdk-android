@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.1.1 (Sep 25, 2023)
+## 1.1.1 (Sep 5, 2023 UTC)
+- Improved the internal logic of the `Sendbird.init()` function.
 ## v1.1.0 (Sep 07, 2023)
 ## Sendbird Live SDK is now out of beta.
 
