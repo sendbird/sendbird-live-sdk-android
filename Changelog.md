@@ -1,5 +1,7 @@
 # Change Log
 
+## v1.1.2 (Sep 27, 2023)
+- Added the isForeground in `SendbirdLive.init()`.
 ## v1.1.1 (Sep 25, 2023)
 ## 1.1.1 (Sep 5, 2023 UTC)
 - Improved the internal logic of the `Sendbird.init()` function.
