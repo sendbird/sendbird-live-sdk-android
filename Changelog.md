@@ -1,6 +1,7 @@
 # Change Log
 
-## v1.2.0 (Dec 01, 2023)
+## v1.2.1 (Dec 11, 2023)
+- Added `LiveEventListener.onHostVideoResolutionChange` to monitor changes in video resolution.## v1.2.0 (Dec 01, 2023)
 - Added support for streaming with multiple hosts
   - Now, multiple hosts can stream in a live event simultaneously.
   - `LiveEvent.hostType` has changed to `LiveEvent.type`
