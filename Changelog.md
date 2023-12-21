@@ -1,5 +1,7 @@
 # Change Log
 
+## v1.2.2 (Dec 21, 2023)
+- Remove duplicative dependency of WebRTC to allow simultaneous use of Sendbird Live and Calls SDK
 ## v1.2.1 (Dec 11, 2023)
 - Added `LiveEventListener.onHostVideoResolutionChange` to monitor changes in video resolution.## v1.2.0 (Dec 01, 2023)
 - Added support for streaming with multiple hosts
