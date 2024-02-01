@@ -1,5 +1,7 @@
 # Change Log
 
+## v1.2.3 (Feb 1, 2024 UTC)
+- Fix issues related to `isForeground`
 ## v1.2.2 (Dec 21, 2023)
 - Remove duplicative dependency of WebRTC to allow simultaneous use of Sendbird Live and Calls SDK
 ## v1.2.1 (Dec 11, 2023)
