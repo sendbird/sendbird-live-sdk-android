@@ -1,5 +1,7 @@
 # Change Log
 
+## v1.2.4 (Mar 7, 2024 UTC)
+- Stability improvements
 ## v1.2.3 (Feb 1, 2024 UTC)
 - Fix issues related to `isForeground`
 ## v1.2.2 (Dec 21, 2023)
