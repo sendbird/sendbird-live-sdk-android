@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.2.8 (Jun 02, 2025)
+### v1.2.8 (Jun 2, 2025) with Chat SDK `v4.27.1`
+- Updated WebRTC version to M134 to support Android 16 KB page sizes
+- Updated the Chat SDK to `v4.27.1`.
 ## v1.2.6 (July 24, 2024 UTC)
 - Fixed issue related to `createdByUserIds`
 ## v1.2.5 (Mar 21, 2024 UTC)
